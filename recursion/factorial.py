@@ -4,6 +4,9 @@ def factorial(x):
     else:
         return x*factorial(x-1) # recursive case
 
+for x in range(1,11): # can't start from 0
+    print(factorial(x))
+
 '''
 The way recursion works in python is essentially this:
 Each extra recursion creates a new stack, and after it reaches the base case, it then unwinds back to return the answer
