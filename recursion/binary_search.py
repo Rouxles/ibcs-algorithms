@@ -20,6 +20,6 @@ target = 621 # let target for both be 621 for simplicity sake - you can change t
 index = binary_search(list_one, target, maximum_index(list_one)) # change the list to odd or even to check whether it works for both cases or not
 
 if index:
-    print("Value found at index {}".format(index))
+    print(f"Value found at index {index}")
 else:
     print("Value not found in index")
